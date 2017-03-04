@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		241A0F9D1E6AE32800A6E84C /* ShutterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241A0F9C1E6AE32800A6E84C /* ShutterButton.swift */; };
 		2487CA0F1E6928F6007A84D6 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2487CA0E1E6928F6007A84D6 /* CameraController.swift */; };
 		2487CA111E69326A007A84D6 /* PreviewLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2487CA101E69326A007A84D6 /* PreviewLayerViewController.swift */; };
 		2496D7BF1E6870D900D06316 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2496D7BE1E6870D900D06316 /* AppDelegate.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		241A0F9C1E6AE32800A6E84C /* ShutterButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShutterButton.swift; sourceTree = "<group>"; };
 		2487CA0E1E6928F6007A84D6 /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 		2487CA101E69326A007A84D6 /* PreviewLayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewLayerViewController.swift; sourceTree = "<group>"; };
 		2496D7BB1E6870D900D06316 /* CameraTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +111,7 @@
 				2496D7CA1E6870D900D06316 /* Info.plist */,
 				2487CA0E1E6928F6007A84D6 /* CameraController.swift */,
 				2487CA101E69326A007A84D6 /* PreviewLayerViewController.swift */,
+				241A0F9C1E6AE32800A6E84C /* ShutterButton.swift */,
 			);
 			path = CameraTest;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2487CA0F1E6928F6007A84D6 /* CameraController.swift in Sources */,
+				241A0F9D1E6AE32800A6E84C /* ShutterButton.swift in Sources */,
 				2496D7C11E6870D900D06316 /* ViewController.swift in Sources */,
 				2487CA111E69326A007A84D6 /* PreviewLayerViewController.swift in Sources */,
 				2496D7BF1E6870D900D06316 /* AppDelegate.swift in Sources */,

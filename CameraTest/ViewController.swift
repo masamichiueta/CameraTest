@@ -34,6 +34,7 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "PreviewViewController" {
             self.previewViewController = segue.destination as? PreviewLayerViewController
+            self.previewViewController?.view.frame = self.view.frame
         }
     }
 }
