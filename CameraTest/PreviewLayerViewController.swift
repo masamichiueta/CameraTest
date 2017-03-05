@@ -35,5 +35,6 @@ class PreviewLayerViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.previewLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
     }
 }

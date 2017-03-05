@@ -17,6 +17,7 @@
 		2496D7C91E6870D900D06316 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2496D7C71E6870D900D06316 /* LaunchScreen.storyboard */; };
 		2496D7D41E6870D900D06316 /* CameraTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2496D7D31E6870D900D06316 /* CameraTestTests.swift */; };
 		2496D7DF1E6870D900D06316 /* CameraTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2496D7DE1E6870D900D06316 /* CameraTestUITests.swift */; };
+		24AC1C051E6BF630003E0563 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AC1C041E6BF630003E0563 /* PhotoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		2496D7DA1E6870D900D06316 /* CameraTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2496D7DE1E6870D900D06316 /* CameraTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraTestUITests.swift; sourceTree = "<group>"; };
 		2496D7E01E6870D900D06316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24AC1C041E6BF630003E0563 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				2487CA0E1E6928F6007A84D6 /* CameraController.swift */,
 				2487CA101E69326A007A84D6 /* PreviewLayerViewController.swift */,
 				241A0F9C1E6AE32800A6E84C /* ShutterButton.swift */,
+				24AC1C041E6BF630003E0563 /* PhotoCollectionViewCell.swift */,
 			);
 			path = CameraTest;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				2496D7C11E6870D900D06316 /* ViewController.swift in Sources */,
 				2487CA111E69326A007A84D6 /* PreviewLayerViewController.swift in Sources */,
 				2496D7BF1E6870D900D06316 /* AppDelegate.swift in Sources */,
+				24AC1C051E6BF630003E0563 /* PhotoCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
