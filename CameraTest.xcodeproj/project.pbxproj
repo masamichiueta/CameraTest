@@ -18,6 +18,7 @@
 		2496D7D41E6870D900D06316 /* CameraTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2496D7D31E6870D900D06316 /* CameraTestTests.swift */; };
 		2496D7DF1E6870D900D06316 /* CameraTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2496D7DE1E6870D900D06316 /* CameraTestUITests.swift */; };
 		24AC1C051E6BF630003E0563 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AC1C041E6BF630003E0563 /* PhotoCollectionViewCell.swift */; };
+		24B2FA4F1ED08EF4007D55C3 /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B2FA4E1ED08EF4007D55C3 /* FocusView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		2496D7DE1E6870D900D06316 /* CameraTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraTestUITests.swift; sourceTree = "<group>"; };
 		2496D7E01E6870D900D06316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24AC1C041E6BF630003E0563 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		24B2FA4E1ED08EF4007D55C3 /* FocusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		2496D7BD1E6870D900D06316 /* CameraTest */ = {
 			isa = PBXGroup;
 			children = (
+				24B2FA4E1ED08EF4007D55C3 /* FocusView.swift */,
 				2496D7BE1E6870D900D06316 /* AppDelegate.swift */,
 				2496D7C01E6870D900D06316 /* ViewController.swift */,
 				2496D7C21E6870D900D06316 /* Main.storyboard */,
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2487CA0F1E6928F6007A84D6 /* CameraController.swift in Sources */,
+				24B2FA4F1ED08EF4007D55C3 /* FocusView.swift in Sources */,
 				241A0F9D1E6AE32800A6E84C /* ShutterButton.swift in Sources */,
 				2496D7C11E6870D900D06316 /* ViewController.swift in Sources */,
 				2487CA111E69326A007A84D6 /* PreviewLayerViewController.swift in Sources */,
